@@ -90,7 +90,7 @@
     if (self)
     {
         // Initialization code
-        self.imageView.contentMode = UIViewContentModeCenter;
+        self.imageView.contentMode = UIViewContentModeScaleAspectFit;
         
     }
     return self;
@@ -125,14 +125,12 @@
     {
         [[NSNotificationCenter defaultCenter]addObserver:self
                                                 selector:@selector(orientationDidChangeNotification:)
-                                                    name:OrientationDidChangeNotification
+                                                    name:UIDeviceOrientationDidChangeNotification
                                                   object:nil];
     }
     else
     {
-        [[NSNotificationCenter defaultCenter]removeObserver:self
-                                                       name:OrientationDidChangeNotification
-                                                     object:nil];
+        [[NSNotificationCenter defaultCenter]removeObserver:self];
     }
 }
 
