@@ -8,18 +8,13 @@ It supports image of button rotation when receiving orientation changed notifica
 How to Start
 ========
 
-//Initialization
 HWButton *button = [[HWButton alloc]initWithFrame:yourFrame];
 
-//Support Orientation
-button.orietationDetect = YES;
+button.orietationDetect = YES;  //Support Orientation
 
-//Recive Button ControlEvent
-button.delegate = self;
+button.delegate = self;    //Recive Button ControlEvent
 
-//Add controlEvent
-[button addControlEvent:UIControlEventTouchUpOutside];
-
+[button addControlEvent:UIControlEventTouchUpOutside];  //Add controlEvent
 
 License
 ======
