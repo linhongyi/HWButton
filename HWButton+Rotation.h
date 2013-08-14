@@ -2,7 +2,7 @@
 //  HWButton+Rotation.h
 //  IOS7ComponentExample
 //
-//  Created by PPUser on 13/8/12.
+//  Created by Howard on 13/8/12.
 //  Copyright (c) 2013年 Howard. All rights reserved.
 //
 
