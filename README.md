@@ -9,6 +9,7 @@ How to Start
 ========
 
 ```
+// Initial
 HWButton *button = [[HWButton alloc]initWithFrame:yourFrame];
 
  //Support Orientation
