@@ -1,6 +1,8 @@
 HWButton
 ========
 
+HWButton is a wrapper of UIButton. 
+It supports for rotating image of button when receiving orientation changed notification.
 
 
 ##How to Start
