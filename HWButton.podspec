@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Base View Component.'
   s.homepage = 'https://github.com/linhongyi/HWButton'
   s.author   = {'HongYiLin' => 'm9615061@mail.ntust.edu.tw'}
-  s.source   = { :git => 'https://github.com/linhongyi/HWButon.git', :tag => "1.0.0"}
+  s.source   = { :git => 'https://github.com/linhongyi/HWButton.git', :tag => "1.0.0"}
   s.source_files = '*.{h,m}'
   s.license      = { :type => 'MIT', :text => <<-LICENSE
 					Copyright 2012
