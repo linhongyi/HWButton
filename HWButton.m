@@ -1,6 +1,5 @@
 //
 //  HWButton.m
-//  IOS7ComponentExample
 //
 //  Created by Howard on 13/8/12.
 //  Copyright (c) 2013年 Howard. All rights reserved.
